@@ -1,0 +1,21 @@
+{
+  "name": "dr",
+  "description": "description",
+  "authors": "author",
+  "version": "1.0.0",
+  "main": "pathToMain",
+  "scripts": {
+    "start": "webpack --watch --config webpack.config.js | npm run watch",
+    "watch": "nodemon dist/bundle.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "^1.18.3",
+    "ts-loader": "^4.5.0",
+    "tslint": "^5.11.0",
+    "tslint-config-airbnb": "^5.10.0",
+    "typescript": "^3.0.1",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0"
+  }
+}

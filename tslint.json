@@ -1,0 +1,17 @@
+{
+  "extends": "tslint-config-airbnb",
+  "rules": {
+    "semicolon": false,
+    "no-console": {
+      "severity": "warning",
+      "options": [
+          "debug",
+          "info",
+          "log",
+          "time",
+          "timeEnd",
+          "trace"
+      ]
+    }
+  }
+}
